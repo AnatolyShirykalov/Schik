@@ -1,0 +1,7 @@
+h1 Typographs#new
+p Find me in app/views/typographs/new.html.slim
+= form_for @typo do |f|
+  = f.label :text, "Текст"
+  = f.text_field :text
+  br
+  = f.submit "Сохранить"

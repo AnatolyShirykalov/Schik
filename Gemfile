@@ -8,8 +8,8 @@ gem 'sass', '~> 3.4.4'
 gem 'rocket_cms_mongoid', '~> 0.6.8'
 
 gem 'sass-rails'
-gem 'compass-rails', '~> 2.0.0'
-gem 'compass', '~> 1.0.0'
+gem 'compass-rails', '~> 2.0.4'
+gem 'compass', '~> 1.0.3'
 
 gem 'slim-rails'
 gem 'rs_russian'
@@ -35,7 +35,7 @@ group :development do
 
   gem 'hipchat'
   gem 'coffee-rails-source-maps'
-  gem 'compass-rails-source-maps'
+  gem 'compass-rails-source-maps', '>= 0.1.0'
 end
 
 group :test do

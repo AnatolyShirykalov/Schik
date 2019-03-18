@@ -5,7 +5,7 @@ gem 'mongoid', '~> 4.0.0'
 
 gem 'sass', '~> 3.4.4'
 
-gem 'rocket_cms_mongoid', '~> 0.6.8'
+gem 'rocket_cms_mongoid', '~> 0.6.9'
 
 gem 'sass-rails'
 gem 'compass-rails', '~> 2.0.0'

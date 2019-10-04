@@ -5,13 +5,13 @@ gem 'mongoid', '~> 4.0.0'
 
 gem 'sass', '~> 3.4.4'
 
-gem 'rocket_cms_mongoid', '~> 0.6.8'
+gem 'rocket_cms_mongoid', '~> 0.6.9'
 
-gem 'sass-rails'
-gem 'compass-rails', '~> 2.0.0'
+gem 'sass-rails', '>= 5.0.1'
+gem 'compass-rails', '~> 2.0.4'
 gem 'compass', '~> 1.0.0'
 
-gem 'slim-rails'
+gem 'slim-rails', '>= 3.0.1'
 gem 'rs_russian'
 gem 'cancancan'
 
@@ -35,15 +35,15 @@ group :development do
 
   gem 'hipchat'
   gem 'coffee-rails-source-maps'
-  gem 'compass-rails-source-maps'
+  gem 'compass-rails-source-maps', '>= 0.1.0'
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.0.2'
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'glebtv-mongoid-rspec'
   gem 'ffaker'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.5.0'
 end
 

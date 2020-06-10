@@ -125,7 +125,7 @@ GEM
     ffi (1.9.6)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
-    geocoder (1.2.7)
+    geocoder (1.6.3)
     glebtv-capistrano-unicorn (0.3.1)
       capistrano (~> 3.0)
     glebtv-ckeditor (4.4.3.4)
